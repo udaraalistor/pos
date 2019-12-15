@@ -1,0 +1,117 @@
+#section1{
+    background: #8bc34a;
+    height: 100px;
+    font-size: 22px;
+    box-shadow: 0px 0px 7px 0px black;
+}
+
+#section2{
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 621px;
+    width: 100%;
+    animation: ani 10s infinite;
+
+}
+
+@keyframes ani {
+    0%{
+        background-image: url("image/cake1.jpg");
+
+    }
+    50%{
+        background-image: url("image/cake2.jpg");
+    }
+    75%{
+        background-image: url("image/cake3.jpg");
+    }
+    100%{
+        background-image: url("image/cake1.jpg");
+    }
+}
+
+
+#ul1{
+    margin-left: 40%;
+    margin-top: 2%;
+
+}
+
+#ul1>li{
+    padding: 5px;
+}
+
+#ul1>li>a{
+    font-family: 'Pacifico', cursive;
+}
+
+#nav{
+    background: #8bc34a;
+}
+
+
+#div1{
+     top: 15vh;
+     left: 10vh;
+
+ }
+
+#div2{
+    top: 35vh;
+
+}
+
+#div3{
+    top: 15vh;
+    left: 10vh;
+
+}
+
+#div4{
+    top: 35vh;
+
+}
+
+#div5{
+    top: 15vh;
+    left: 10vh;
+
+}
+
+#div6{
+    top: 35vh;
+
+}
+
+#carouselExampleFade{
+    height: 500px;
+}
+
+#slide1{
+    height: 500px;
+}
+
+
+#content1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    left: 67vw;
+    top: 50vh;
+
+}
+
+#content2{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 60vw;
+    top: 60vh;
+
+}
+
+
